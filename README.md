@@ -30,7 +30,6 @@ todo-app/
 │   ├── main.jsx
 │   ├── todo.css
 │   ├── Todo.jsx
-│   └── index.js
 │── public/
 │── index.html
 │── package.json
