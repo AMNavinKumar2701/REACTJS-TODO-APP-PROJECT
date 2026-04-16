@@ -43,7 +43,8 @@ todo-app/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/AMNavinKumar2701/todo-app.git
+git clone https://github.com/AMNavinKumar2701/REACTJS-TODO-APP-PROJECT
+.git
 ```
 
 2. Navigate to the project folder:
