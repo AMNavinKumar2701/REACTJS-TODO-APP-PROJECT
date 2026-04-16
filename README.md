@@ -1,18 +1,123 @@
-# React + Vite
+# 📝 React Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive Todo List application built using **React.js** and **useState hook**. This app allows users to add, edit, and delete tasks easily.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* ➕ Add new tasks
+* ✏️ Edit existing tasks
+* ❌ Delete tasks
+* ⌨️ Add/Edit tasks using **Enter key**
+* 📦 Built using React functional components and hooks
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+* React.js
+* JavaScript (ES6+)
+* CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Project Structure
+
+```
+todo-app/
+│── src/
+│   ├── main.jsx
+│   ├── todo.css
+│   ├── Todo.jsx
+│   └── index.js
+│── public/
+│── index.html
+│── package.json
+│── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/AMNavinKumar2701/todo-app.git
+```
+
+2. Navigate to the project folder:
+
+```bash
+cd todo-app
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm start
+```
+
+5. Open in browser:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 💡 How It Works
+
+* **useState Hook** is used to manage:
+
+  * Input field value
+  * List of tasks
+  * Edit mode state
+  * Edited task value
+
+* Tasks are stored in an array and rendered using `.map()`
+
+* Editing is handled by tracking the index of the selected task
+
+---
+
+## 📸 Screenshots (Optional)
+
+*Add screenshots here if you want*
+
+---
+
+## 🔮 Future Improvements
+
+* ✅ Add local storage support
+* 🎨 Improve UI/UX
+* 📱 Make it responsive
+* 🔔 Add task reminders
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork this repository and contribute by submitting a pull request.
+
+---
+
+## 📜 License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+## 👨‍💻 Author
+
+Your Name
+GitHub: https://github.com/AMNavinKumar2701
+
+---
